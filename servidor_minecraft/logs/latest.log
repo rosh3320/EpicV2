@@ -1,63 +1,69 @@
-[20May2025 02:05:38.066] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.145, --fml.fmlVersion, 4.0.38, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, nogui]
-[20May2025 02:05:38.069] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04
-[20May2025 02:05:38.070] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.7 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[20May2025 02:05:38.164] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[20May2025 02:05:38.220] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/EpicV2/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2375!/ Service=ModLauncher Env=SERVER
-[20May2025 02:05:38.417] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.145:server]
-[20May2025 02:05:38.437] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.145-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.145/neoforge-21.1.145-universal.jar]], reader: mod manifest]
-[20May2025 02:05:38.516] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[20May2025 02:05:38.517] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.145-universal.jar, locator: jarinjar, reader: mod manifest]
-[20May2025 02:05:38.517] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.145.jar" [parent: neoforge-21.1.145-universal.jar, locator: jarinjar, reader: mod manifest]
-[20May2025 02:05:38.519] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
-     Mod List:
-		Name Version (Mod Id)
-
-		Minecraft 1.21.1 (minecraft)
-		NeoForge 21.1.145 (neoforge)
-[20May2025 02:05:39.083] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[20May2025 02:05:40.032] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20May2025 02:05:45.306] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.145, for MC 1.21.1
-[20May2025 02:05:45.655] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20May2025 02:05:45.706] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/EpicV2/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23119!/assets/.mcassetsroot' uses unexpected schema
-[20May2025 02:05:45.706] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/EpicV2/servidor_minecraft/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23119!/data/.mcassetsroot' uses unexpected schema
-[20May2025 02:05:46.567] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
-[20May2025 02:05:47.416] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[20May2025 02:05:47.646] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[20May2025 02:05:48.183] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[20May2025 02:05:48.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[20May2025 02:05:48.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[20May2025 02:05:48.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[20May2025 02:05:48.254] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[20May2025 02:05:48.287] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[20May2025 02:05:48.315] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20May2025 02:05:48.316] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[20May2025 02:05:48.316] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20May2025 02:05:48.316] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[20May2025 02:05:48.362] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[20May2025 02:05:55.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[20May2025 02:05:55.302] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[20May2025 02:05:55.857] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[20May2025 02:05:56.286] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[20May2025 02:05:56.784] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[20May2025 02:05:57.308] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[20May2025 02:05:57.788] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[20May2025 02:05:58.283] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[20May2025 02:05:58.777] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
-[20May2025 02:05:59.382] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[20May2025 02:05:59.790] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[20May2025 02:06:00.274] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[20May2025 02:06:00.801] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[20May2025 02:06:01.131] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5860 ms
-[20May2025 02:06:01.132] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.802s)! For help, type "help"
-[20May2025 02:06:01.160] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[20May2025 02:06:17.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[20May2025 02:06:17.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[20May2025 02:06:17.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[20May2025 02:06:17.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[20May2025 02:06:18.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20May2025 02:06:18.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20May2025 02:06:18.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20May2025 02:06:18.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20May2025 02:06:18.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20May2025 02:06:18.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20May2025 02:06:18.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:50:16] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[19:50:16] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 11
+[19:50:16] [ForkJoinPool-1-worker-3/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 26 column 4
+- Unsupported root entry "" at line 26 column 124
+- Unsupported root entry "" at line 28 column 4
+- Unsupported root entry "" at line 28 column 24
+[19:50:16] [ForkJoinPool-1-worker-1/WARN]: The mod "takesapillage" contains invalid entries in its mod json:
+- Unsupported root entry "mc-publish" at line 51 column 15
+[19:50:16] [ForkJoinPool-1-worker-1/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 27 column 4
+- Unsupported root entry "" at line 27 column 198
+- Unsupported root entry "" at line 29 column 4
+- Unsupported root entry "" at line 29 column 24
+[19:50:16] [ForkJoinPool-1-worker-1/WARN]: Mod wither_spawn_fix uses the version MC1.21-1.0.0 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'MC1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:50:16] [ForkJoinPool-1-worker-1/WARN]: The mod "luna" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 10 column 14
+- Unsupported root entry "incompatible" at line 34 column 19
+[19:50:16] [ForkJoinPool-1-worker-2/WARN]: The mod "villagesandpillages" contains invalid entries in its mod json:
+- Unsupported root entry "mc-publish" at line 46 column 15
+[19:50:16] [main/INFO]: Dependencies overridden for sodium, mediumcore, improved-signs
+[19:50:16] [main/WARN]: Mod resolution failed
+[19:50:16] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE accessorify 1.4.4+1.21.1 {depends fabricloader @ [>=0.16.13]}, ROOT_FORCELOAD_SINGLE accessorify 1.4.4+1.21.1]
+[19:50:16] [main/INFO]: Reason: [HARD_DEP accessorify 1.4.4+1.21.1 {depends fabricloader @ [>=0.16.13]}, HARD_DEP adventurez 1.4.24 {depends fabricloader @ [>=0.16.10]}, HARD_DEP aether_villages 1.0.8 {depends fabricloader @ [>=0.16.9]}, HARD_DEP almanac 1.0.2 {depends fabricloader @ [>=0.16.7]}, HARD_DEP animal_feeding_trough 1.1.2+1.21.1 {depends fabricloader @ [>=0.16.5]}, HARD_DEP bedrockoid 0.1.1 {depends fabricloader @ [>=0.16.5]}, HARD_DEP betterendcitiesforbetterend 1.21.1-1.0.0 {depends fabricloader @ [>=0.16.14]}, HARD_DEP bookshelf 21.1.62 {depends fabricloader @ [>=0.16.4]}, HARD_DEP fabric-language-kotlin 1.13.3+kotlin.2.1.21 {depends fabricloader @ [>=0.16.9]}, HARD_DEP charm 7.0.42-forked {depends fabricloader @ [>=0.16.5]}, HARD_DEP crash_assistant 1.8.0 {depends fabricloader @ [>=0.16.9]}, HARD_DEP frostiful 2.2.1+1.21.1 {depends fabricloader @ [>=0.16.9]}, HARD_DEP goblintraders 1.11.2 {depends fabricloader @ [>=0.16.10]}, HARD_DEP misctweaks 1.1.2+1.21.1 {depends fabricloader @ [>=0.16.12]}, HARD_DEP modernfix 5.23.0+mc1.21.1 {depends fabricloader @ [>=0.16.10]}, HARD_DEP morevillagers 5.1.1 {depends fabricloader @ [>=0.16.9]}, HARD_DEP prickle 21.1.8 {depends fabricloader @ [>=0.16.4]}, HARD_DEP simple_snowy_fix 2.1.3 {depends fabricloader @ [>=0.16.10]}, HARD_DEP sparsestructures 3.0 {depends fabricloader @ [>=0.16.13]}, HARD_DEP structure_layout_optimizer 1.0.10 {depends fabricloader @ [>=0.16.9]}, HARD_DEP supplementaries 1.21-3.1.8 {depends fabricloader @ [>=0.16.7]}, HARD_DEP tclayer 3.10.0+beta.28 {depends fabricloader @ [>=0.16.10]}, HARD_DEP thermoo-patches 3.6.1 {depends fabricloader @ [>=0.16.9]}, HARD_DEP mixson 1.3.1.1 {depends fabricloader @ [>=0.16.10]}, HARD_DEP thermoo-patches-base 3.6.1 {depends fabricloader @ [>=0.16.9]}, HARD_DEP thermoo-patches-fabric-seasons-patch 3.6.1 {depends fabricloader @ [>=0.16.9]}, HARD_DEP thermoo-patches-friendsandfoes-patch 3.6.1 {depends fabricloader @ [>=0.16.9]}, HARD_DEP thermoo-patches-origins-patch 3.6.1 {depends fabricloader @ [>=0.16.9]}, HARD_DEP thermoo-patches-simple-seasons-patch 3.6.1 {depends fabricloader @ [>=0.16.9]}, HARD_DEP thermoo-patches-stellaris-patch 3.6.1 {depends fabricloader @ [>=0.16.9]}]
+[19:50:16] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-model-loading-api-v1, fabric-keybindings-v0, fabric-client-tags-api-v1, fabric-screen-api-v1, fabric-renderer-indigo, thermoo-patches-overflowing-bars-patch, fabric-blockrenderlayer-v1, fabric-renderer-registries-v1, fabric-sound-api-v1, fabric-rendering-v0, fabric-key-binding-api-v1, fabric-rendering-v1, thermoo-patches-colorfulhearts-patch]
+[19:50:16] [main/INFO]: Fix: add [], remove [], replace [[fabricloader 0.16.3] -> add:fabricloader 0.16.14 ([[0.16.14,∞)])]
+[19:50:17] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace mod 'Fabric Loader' (fabricloader) 0.16.3 with version 0.16.14 or later.
+More details:
+	 - Mod 'Accessorify' (accessorify) 1.4.4+1.21.1 requires version 0.16.13 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'AdventureZ' (adventurez) 1.4.24 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Aether Villages' (aether_villages) 1.0.8 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Almanac' (almanac) 1.0.2 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Animal Feeding Trough' (animal_feeding_trough) 1.1.2+1.21.1 requires version 0.16.5 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Bedrockoid' (bedrockoid) 0.1.1 requires version 0.16.5 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'BetterEndCitiesForBetterEnd' (betterendcitiesforbetterend) 1.21.1-1.0.0 requires version 0.16.14 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Bookshelf' (bookshelf) 21.1.62 requires version 0.16.4 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Fabric Language Kotlin' (fabric-language-kotlin) 1.13.3+kotlin.2.1.21 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Charm' (charm) 7.0.42-forked requires version 0.16.5 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Crash Assistant' (crash_assistant) 1.8.0 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Frostiful' (frostiful) 2.2.1+1.21.1 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Goblin Traders' (goblintraders) 1.11.2 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'MiscTweaks' (misctweaks) 1.1.2+1.21.1 requires version 0.16.12 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'ModernFix' (modernfix) 5.23.0+mc1.21.1 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'MoreVillagers' (morevillagers) 5.1.1 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'PrickleMC' (prickle) 21.1.8 requires version 0.16.4 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Simple Snowy Fix' (simple_snowy_fix) 2.1.3 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'SparseStructures' (sparsestructures) 3.0 requires version 0.16.13 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Structure Layout Optimizer' (structure_layout_optimizer) 1.0.10 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Supplementaries' (supplementaries) 1.21-3.1.8 requires version 0.16.7 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Accessories Trinkets Compat Layer' (tclayer) 3.10.0+beta.28 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Thermoo Patches' (thermoo-patches) 3.6.1 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Mixson' (mixson) 1.3.1.1 requires version 0.16.10 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Thermoo Patches Base' (thermoo-patches-base) 3.6.1 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Thermoo Patches Fabric Seasons Patch' (thermoo-patches-fabric-seasons-patch) 3.6.1 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Thermoo Patches Friends & Foes Patch' (thermoo-patches-friendsandfoes-patch) 3.6.1 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Thermoo Patches Origins Patch' (thermoo-patches-origins-patch) 3.6.1 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Thermoo Patches Simple Seasons Patch' (thermoo-patches-simple-seasons-patch) 3.6.1 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	 - Mod 'Thermoo Patches Stellaris Patch' (thermoo-patches-stellaris-patch) 3.6.1 requires version 0.16.9 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.3!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
